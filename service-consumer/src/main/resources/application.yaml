@@ -1,0 +1,10 @@
+server:
+  port: 8089
+  servlet:
+    application-display-name: service-consumer
+
+dubbo:
+  application:
+    name: service-consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181

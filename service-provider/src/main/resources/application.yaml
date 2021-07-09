@@ -1,0 +1,13 @@
+server:
+  port: 8087
+  servlet:
+    application-display-name: service-provider
+
+dubbo:
+  application:
+    name: service-consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
